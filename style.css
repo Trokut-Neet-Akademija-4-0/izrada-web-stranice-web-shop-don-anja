@@ -1,0 +1,27 @@
+.navbar-one {
+  background-color: rgb(255, 191, 101);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-brands {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.search {
+  margin-right: 100px;
+}
