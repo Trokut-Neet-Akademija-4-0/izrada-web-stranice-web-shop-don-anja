@@ -1,3 +1,7 @@
+.body {
+  margin: 0;
+}
+
 .navbar-one {
   background-color: rgb(255, 191, 101);
   display: flex;
@@ -33,4 +37,31 @@
 .search input[type="search"] {
   border-radius: 15px 15px 15px 15px;
   border: 1px solid #ccc;
+}
+
+.navbar-two {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.logo img {
+  height: 120%;
+  width: 110%;
+}
+
+.map {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 5px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
 }
