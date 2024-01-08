@@ -54,3 +54,9 @@
   padding: 5px;
   color: whitesmoke;
 }
+
+.auto-height-iframe {
+  border: none;
+  width: 100%;
+  margin: 0;
+}
