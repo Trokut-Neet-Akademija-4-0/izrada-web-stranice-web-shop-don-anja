@@ -1,2 +1,12 @@
 .bed-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  margin: 8px;
+}
+
+.bed-card img {
+  width: 100%;
 }
