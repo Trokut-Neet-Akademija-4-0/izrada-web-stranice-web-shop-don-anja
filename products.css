@@ -1,4 +1,10 @@
-.bed-card {
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
@@ -7,6 +13,6 @@
   margin: 8px;
 }
 
-.bed-card img {
+img {
   width: 100%;
 }
