@@ -10,5 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     };
   }
   var iframes = document.querySelectorAll(".auto-height-iframe");
+  console.log(iframes);
   iframes.forEach(adjustIframeHeight);
 });
