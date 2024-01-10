@@ -1,8 +1,8 @@
-.product-container-firstrow {
+.product-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
+  overflow-x: auto;
+  padding: 16px 0;
+  gap: 16px;
 }
 
 .product-card {
@@ -10,23 +10,19 @@
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  width: 300px;
   margin: 8px;
+  flex: 0 0 auto;
+  width: 300px;
 }
 
-.product-container-secondrow {
+.product-info {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 img {
   width: 100%;
-}
-
-.product-container-thirdrow {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
+  height: 50%;
+  object-fit: cover;
 }
