@@ -1,7 +1,8 @@
-.product-container {
+.product-container-firstrow {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .product-card {
@@ -9,10 +10,23 @@
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  width: 200px;
+  width: 300px;
   margin: 8px;
+}
+
+.product-container-secondrow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 img {
   width: 100%;
+}
+
+.product-container-thirdrow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
 }
