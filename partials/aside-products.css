@@ -1,0 +1,14 @@
+.aside-products {
+  width: 15%;
+}
+
+.aside-products fieldset {
+  margin-bottom: 1rem;
+}
+
+.aside-products label {
+  display: block;
+}
+.aside-products legend {
+  padding-bottom: 0.5rem;
+}
