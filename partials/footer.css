@@ -1,12 +1,14 @@
 .footer-container {
   border: 1px solid black;
   width: 100%;
-  height: 30vh;
+  height: 50vh;
 }
 
 .info-container {
   display: flex;
   justify-content: space-around;
+  height: 50%;
+  margin-top: 10px;
 }
 
 .links {
@@ -19,4 +21,19 @@
 
 .links a {
   text-decoration: none;
+}
+
+.map {
+  height: 30%;
+}
+
+.icons {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  padding: 35px;
+}
+
+.icons i {
+  margin: 0 10px;
 }
