@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var object = frameContent.querySelector("object");
       var frameBody = frameContent.querySelector("body");
       var height = object.offsetHeight;
-      frameBody.style.margin = 50;
+      frameBody.style.margin = 0;
       iframe.style.height = height + "px";
     };
   }
