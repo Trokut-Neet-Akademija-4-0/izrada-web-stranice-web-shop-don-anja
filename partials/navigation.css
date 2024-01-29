@@ -55,3 +55,7 @@
   padding: 5px;
   color: black;
 }
+
+.nav-links a:hover {
+  color: rgb(250, 227, 226);
+}

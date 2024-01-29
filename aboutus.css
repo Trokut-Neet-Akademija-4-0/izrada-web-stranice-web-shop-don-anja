@@ -14,18 +14,23 @@ body {
 
 .about-container {
   display: flex;
+  right: 50px;
+  top: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(248, 235, 244);
+  background-color: rgb(250, 227, 226);
   padding: 10px;
+  border-radius: 2rem;
+  line-height: 1.5rem;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  right: 0;
 }
 
 .image-container img {
