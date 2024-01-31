@@ -16,18 +16,23 @@
 
 .blog-cards-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  overflow-x: auto;
+  padding: 16px 0;
+  gap: 16px;
+  width: 100%;
 }
 
 .blog-card {
-  width: 30%;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
   text-align: center;
+  margin: 8px;
+  flex: 0 0 auto;
+  width: 500px;
 }
 
 .blog-card img {
   width: 100%;
-  height: auto;
+  height: 350px;
 }
