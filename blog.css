@@ -1,6 +1,33 @@
+.body {
+  margin: 0;
+  display: flex;
+}
+
 .featured-blog {
   width: 100%;
   display: flex;
-  justify-content: center;
   margin-bottom: 20px;
+}
+
+.blog-post {
+  max-width: 800px;
+  text-align: center;
+}
+
+.blog-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
 }
