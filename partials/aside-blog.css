@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.popular-posts {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+.popular-posts h3 {
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.popular-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.popular-posts ul li {
+  margin-bottom: 10px;
+}
+
+.popular-posts ul li a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.popular-posts ul li a:hover {
+  color: #0056b3;
+}

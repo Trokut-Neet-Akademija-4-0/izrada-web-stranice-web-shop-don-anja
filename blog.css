@@ -4,9 +4,44 @@
 }
 
 .featured-blog {
-  width: 100%;
+  width: 60%;
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
   display: flex;
-  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.featured-blog .blog-post {
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-blog .blog-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .blog-post {
