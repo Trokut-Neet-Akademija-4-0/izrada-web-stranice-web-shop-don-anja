@@ -3,6 +3,19 @@
   display: flex;
 }
 
+.banner-title {
+  font-size: 50px;
+}
+
+.banner-title,
+.banner-subtitle {
+  font-family: "Caveat", cursive;
+}
+
+ul li {
+  font-family: "Caveat", cursive;
+}
+
 header,
 footer {
   flex: 1;
