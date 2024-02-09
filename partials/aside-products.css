@@ -1,3 +1,7 @@
+.aside-products {
+  border-color: rgb(249, 201, 201);
+}
+
 .aside-products fieldset {
   margin-bottom: 1rem;
 }
@@ -7,4 +11,18 @@
 }
 .aside-products legend {
   padding-bottom: 0.5rem;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(249, 201, 201);
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: rgb(248, 168, 168);
 }
